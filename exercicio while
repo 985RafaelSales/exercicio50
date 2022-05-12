@@ -1,0 +1,22 @@
+package exercicio_50;
+import java.util.Scanner;
+public class exercicio_a {
+
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	int base=12;
+	int resultado=0;
+	do {
+		if(resultado>=12) {
+			System.out.println(resultado);
+			
+		}
+		resultado=resultado+base;
+		base++;
+			
+	}
+	while (base<=200);
+	System.out.println(base);
+		
+	}
+}
