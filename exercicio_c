@@ -1,0 +1,21 @@
+public class exercicio_ {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int div = 1;
+		int soma=0;
+		System.out.println("numeros diviseis por 4");
+	do {
+		if(div%4==0) {// e enunciado pede para você os numeros divisiveis por quatro então o correto é usar o porcento (%) para pegar o resto do numeros divisores.
+			System.out.print(div + ", ");
+			
+			
+			
+		}
+			
+		div++;}
+	while(div<200);
+	System.out.println(soma);
+
+}
+}
