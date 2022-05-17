@@ -1,0 +1,26 @@
+package exercicio_d;
+import java.util.Scanner;
+public class exercicio_ {
+
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	int grãos=1;
+	int acum=0;
+	System.out.println("numeros de grãos");
+	do {
+	if(grãos%1==0){
+		
+		
+		System.out.println(grãos);
+		acum=acum+grãos;
+	
+		
+	}
+
+grãos++;}
+	while(grãos<=64);
+	System.out.println(" total de graõs " + acum);
+	
+	
+}
+}
