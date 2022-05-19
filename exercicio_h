@@ -1,0 +1,31 @@
+package exercicio_g;
+import java.util.Scanner; 
+public class exercicio {
+
+	public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+    int numero=0;
+    int impar=0;
+    
+    
+    do{
+    	System.out.println("total de numeros" + numero);
+    	
+    	    	if(numero%2==1) {
+    	    		
+    		impar=impar+numero;
+    		
+    		;
+}
+
+
+    	    	numero++;}
+    
+    	
+    
+	
+	while(numero<=10);
+    System.out.println(" total de numeros impares " + impar );
+
+}
+}
