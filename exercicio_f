@@ -1,0 +1,27 @@
+package exercicio_f;
+import java.util.Scanner;
+public class exercicio {
+
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	int numero,soma=0;
+	int cont=0;
+	//não colocar dentro do (do) porque senão ele vai somar toda hora;
+	
+	do {
+		System.out.println("digite um numero inteiro (numero negativo para parar):");
+		numero=sc.nextInt();
+		
+		
+		if(numero>0) {
+			soma=soma+numero;
+			cont++;}
+		
+		}
+	while(numero>0);
+	System.out.println("a soma: "+ soma);
+	System.out.println("quant de numeros informados: " + cont);
+	System.out.println("a media é "+ (soma/cont) );
+	}
+
+}
